@@ -1,0 +1,236 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #1b1b32;
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+  }
+  
+  h1, p {
+    margin: 1em auto;
+    text-align: center;
+  }
+  
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  input, textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
+  }
+  
+  input[type="file"] {
+    padding: 1px 2px;
+  }
+  
+  .inline{
+    display: inline; 
+  }
+  .logo {
+    position: absolute;
+    top: 20px; /* Distancia desde la parte superior*/
+    left: 400px; /* Distancia desde el borde izquierdo*/
+    width: 100px; /*Ancho del logo*/
+    height: auto; /* Altura ajustada automáticamente */
+    z-index: 999; /*Para asegurar que esté encima del contenido*/
+  }
+  .container {
+    width: 60%; /* Ancho del contenedor */
+    max-width: 500px; /* Ancho máximo del contenedor */
+    margin: 50px auto; /* Margen superior e inferior y centrado horizontalmente */
+    padding: 20px; /* Espaciado interno del contenedor */
+    border: 2px solid #ccc; /* Borde del contenedor */
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    width: 100%; /* Ancho del formulario */
+  }
+  
+  fieldset {
+    border: none;
+    padding: 10px 0;
+  }
+  
+  legend {
+    font-weight: bold;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    width: calc(100% - 12px); /* Ancho del campo de entrada */
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #3b3b4f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #5f5f7f;
+  }
+
+  body {
+    margin: 0;
+    padding: auto;
+    background: linear-gradient(to right, #272755, #1b1b32);
+    color: #f5f6f7;
+    font-family: Tahoma, sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #252540;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    color: #f5f6f7;
+    min-height: 600px; 
+}
+
+h1, p {
+    margin: 1em 0;
+}
+
+form {
+    width: 100%;
+}
+
+fieldset {
+    border: none;
+    padding: 20px 0;
+    border-bottom: 2px solid #3b3b4f;
+}
+
+fieldset:last-of-type {
+    border-bottom: none;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+    margin-top: 10px;
+    width: calc(100% - 24px);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1b1b32;
+    color: #ffffff;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(63, 81, 181, 0.5);
+}
+
+input[type="submit"] {
+    width: 60%;
+    margin: 20px auto 0;
+    padding: 15px;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #5f5f7f;
+}
+
+.inline {
+    display: inline-block;
+    width: auto;
+    margin: 0 0.5em;
+}
+
+.error {
+    color: #ff6666;
+    font-size: 0.9em;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 20px;
+    width: 100px;
+    height: auto;
+}
+  
+  

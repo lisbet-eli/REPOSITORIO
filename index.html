@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="estilos.css" />
+    <style>
+       /* Estilo para el contenedor del formulario */
+       .form-container {
+        width: 60%; /* Ancho del contenedor*/
+        margin: 0 auto; /* Centrar el contenedor en la pagina*/
+        padding: 20px; /*Espaciado interno*/
+        border: 1px solid #ccc; /* Borde del contenedor*/
+        border-radius: 10px; /* Bordes redondeados*/
+       }
+       .logo{
+        position: fixed; /* Establece la posicion fija*/
+        top: 10px; /* Distancia desde la parte superior */
+        left: 10px; /* Distancia desde la parte izquierda */
+       }
+    </style>
+  </head>
+  <body>
+    <div class="form-container">
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="first-name">Enter Your First Name: 
+          <input id="first-name" name="first-name" type="text" pattern="\w+\s+\w+" required />
+        </label>
+        <label for="last-name">Enter Your Last Name: 
+          <input id="last-name" name="last-name" type="text" pattern="\w+\s+\w+" required />
+        </label>
+        <label for="dni">Enter Your DNI: 
+          <input id="dni" name="dni" type="text" pattern="\d{8}" required />
+        </label>
+        <label for="facultad">Enter Your Facultad: 
+          <input id="facultad" name="facultad" type="text" required />
+        </label>
+        <label for="escuela-profesional">Enter Your Escuela Profesional: 
+          <input id="escuela-profesional" name="escuela-profesional" type="text" required />
+        </label>
+        <label for="programa-estudios">Enter Your Programa de Estudios: 
+          <input id="programa-estudios" name="programa-estudios" type="text" required />
+        </label>
+        <label for="numero-celular">Enter Your Numero de Celular: 
+          <input id="numero-celular" name="numero-celular" type="text" pattern="\d{9}" required />
+        </label>
+        <label for="email">Enter Your Email: 
+          <input id="email" name="email" type="email" required />
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>TIPO DE CONTRATO (CATEGORIA)</legend>
+        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" checked /> Contratado</label>
+        <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" /> Nombrado</label>
+      </fieldset>
+      <fieldset>
+        <label for="age">Input your age (years): <input id="age" type="number" name="age" min="13" max="120" /></label>
+        <label for="referrer">How did you hear about us?
+          <select id="referrer" name="referrer">
+            <option value="">(select one)</option>
+            <option value="1">freeCodeCamp News</option>
+            <option value="2">freeCodeCamp YouTube Channel</option>
+            <option value="3">freeCodeCamp Forum</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+        <label for="bio">Tell us about yourself:
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+        </label>
+      </fieldset>
+      <label for="terms-and-conditions">
+        <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+      </label>
+      <input type="submit" value="Submit" />
+    </form>
+  </div> 
+  <img src="logo_universidad.png" alt="Logo Universidad Nacional del Altiplano" class="logo">
+  </script>
+  </body>
+</html>
